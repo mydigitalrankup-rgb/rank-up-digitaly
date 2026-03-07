@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Section - Futuristic Clean</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+
+    <style>
+
+
+        .cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+/* Small inner dot */
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background: #39ff14;
+}
+
+/* Outer circle */
+.cursor-outline {
+    width: 32px;
+    height: 32px;
+    border: 2px solid #39ff14;
+    opacity: 0.6;
+    transition: width .2s, height .2s, opacity .2s;
+} 
+
+
+
+
+
+/* spinning particals globle */
+
+    </style>
+</head>
+
+<body>
+  <div class="header-wrapper">
+
+    <div class="neon-top-strip">
+        <div class="neon-contact">
+            <span class="neon-contact-item">
+                <i class="fa-solid fa-phone neon-icon"></i>
+                +91 62846-86544
+            </span>
+            <span class="neon-contact-item">
+                <i class="fa-solid fa-envelope neon-icon"></i>
+                rankupdigitaly@gmail.com
+            </span>
+        </div>
+
+        <div class="neon-social">
+            <a href="#"><i class="fab fa-facebook-f neon-icon"></i></a>
+            <a href="#"><i class="fab fa-instagram neon-icon"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in neon-icon"></i></a>
+            <a href="#"><i class="fab fa-youtube neon-icon"></i></a>
+        </div>
+
+        <div class="scroll-progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+
+        <!-- LEFT NAV -->
+        <div class="nav-group left">
+            <a href="/index.html" class="nav-link active">Home</a>
+
+            <!-- CLICK DROPDOWN -->
+            <div class="dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle">Services</a>
+                <div class="dropdown-menu">
+                    <a href="/services/best-web-development-company-mohali-chandigarh.html">Web Development</a>
+                    <a href="#seo">SEO Optimization</a>
+                    <a href="/services/best-digital-marketing-company-mohali-chandigarh.html">Digital Marketing</a>
+                    <a href="#ads">Performance Ads</a>
+                </div>
+            </div>
+
+            <a href="#" class="nav-link">Blog</a>
+        </div>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="#Home"><img src="/images/rank-logo.png" alt="Logo"></a>
+        </div>
+
+        <!-- RIGHT NAV -->
+        <div class="nav-group right">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Login</a>
+        </div>
+
+        <!-- MOBILE MENU -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/index.html" class="nav-link">Home</a>
+
+            <div class="mobile-dropdown">
+                <div class="mobile-dropdown-toggle">Services</div>
+                <div class="mobile-dropdown-menu">
+                    <a href="/services/best-web-development-company-mohali-chandigarh.html">Web Development</a>
+                    <a href="#seo">SEO Optimization</a>
+                    <a href="/services/best-digital-marketing-company-mohali-chandigarh.html">Digital Marketing</a>
+                    <a href="#ads">Performance Ads</a>
+                </div>
+            </div>
+
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Login</a>
+        </div>
+
+    </nav>
+
+</div>
+
+
+
+
+
+
+
+
+    
+
+
+    <div class="particles" id="particles">
+
+
+
+        <section class="hero-section" id="Home">
+            <header class="cyber-header">
+
+                <!-- Floating Icons Background -->
+                <div class="floating-header-icons">
+                    <i class="fab fa-node"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-wordpress"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-figma"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-aws"></i>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-gitlab"></i>
+                    <i class="fab fa-android"></i>
+                </div>
+
+                <!-- Your header content here -->
+            </header>
+
+            <div class="hero-grid-bg"></div>
+
+            <div class="hero-content">
+
+                <span class="hero-tag">Digital Growth Engine</span>
+
+                <h1 class="hero-title">
+                    We Build Systems
+                    <span>That Scale Businesses</span>
+                </h1>
+
+                <p class="hero-sub">
+                    Rank Up Digitaly creates high-performance websites and
+                    data-driven marketing strategies engineered for measurable growth.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Start a Project</a>
+                    <a href="#advertisers" class="btn-outline">View Our Work</a>
+                </div>
+
+            </div>
+
+            <!-- Floating Tech Particles -->
+            <div class="hero-icons">
+                <i class="fab fa-react"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-html5"></i>
+                <!-- <i class="fab fa-css3-alt"></i> -->
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="process-section">
+    <div class="process-container">
+
+        <h2 class="process-title">OUR ENGINEERING PROCESS</h2>
+
+        <div class="process-grid">
+
+            <div class="process-step">
+                <h4>01. Discovery</h4>
+                <p>Deep business analysis, competitor research, and goal alignment.</p>
+            </div>
+
+            <div class="process-step">
+                <h4>02. Architecture</h4>
+                <p>System planning, funnel mapping, and technical structure design.</p>
+            </div>
+
+            <div class="process-step">
+                <h4>03. Development</h4>
+                <p>Performance-focused coding with clean UI and scalable backend logic.</p>
+            </div>
+
+            <div class="process-step">
+                <h4>04. Testing</h4>
+                <p>Speed optimization, device testing, and quality assurance checks.</p>
+            </div>
+
+            <div class="process-step">
+                <h4>05. Optimization</h4>
+                <p>Conversion tracking, analytics setup, and performance refinement.</p>
+            </div>
+
+            <div class="process-step">
+                <h4>06. Scale</h4>
+                <p>Growth strategies, paid campaigns, and long-term scaling systems.</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="about">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- LEFT SIDE -->
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+
+                        <h2 class="tech-title">ABOUT US</h2>
+
+                        <p class="tech-sub">
+                            We build websites and marketing systems that help businesses grow.
+                        </p>
+
+                        <p class="tech-text">
+                            A good-looking website is not enough. It needs to bring real results.
+                            That’s why we focus on strategy, performance, and measurable growth.
+                        </p>
+
+                        <p class="tech-text mt-4">
+                            From design to development to digital marketing,
+                            everything we create is built to increase traffic,
+                            improve conversions, and generate revenue.
+                        </p>
+
+                        <p class="tech-text mt-4">
+                            We believe in clear communication, honest reporting,
+                            and long-term partnerships with our clients.
+                        </p>
+
+                    </div>
+
+                    <!-- RIGHT PANEL -->
+                    <div class="col-lg-5">
+                        <div class="panel-wrapper">
+                            <div class="tech-panel" id="tiltPanel">
+
+                                <div class="panel-header">OUR RESULTS</div>
+
+                                <div class="stat-line">
+                                    <span>Projects Completed</span>
+                                    <span class="stat-number" data-target="48">0</span>
+                                </div>
+
+                                <div class="stat-line">
+                                    <span>Happy Clients</span>
+                                    <span class="stat-number" data-target="26">0</span>
+                                </div>
+
+                                <div class="stat-line">
+                                    <span>Client Satisfaction</span>
+                                    <span class="stat-number" data-target="97">0</span>
+                                </div>
+
+                                <div class="stat-line">
+                                    <span>Focused on Results</span>
+                                    <span class="stat-number" data-target="100">0</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="services">
+            <div class="container">
+
+                <div class="services-header text-center">
+                    <h2 class="services-title">OUR SERVICES</h2>
+                    <p class="services-sub">
+                        We don’t just build websites. We build systems that grow your business.
+                    </p>
+                </div>
+
+                <div class="services-matrix">
+
+                    <div class="service-module">
+                        <h4>Web Development</h4>
+                        <p>
+                            We design and develop fast, responsive websites that not only look modern,
+                            but are optimized for speed, performance, and conversions.
+                            Every line of code is built to support long-term growth.
+                        </p>
+                    </div>
+
+                    <div class="service-module">
+                        <h4>Digital Marketing</h4>
+                        <p>
+                            From social media to paid campaigns, we create data-driven strategies
+                            that attract the right audience, increase engagement, and turn traffic
+                            into real customers.
+                        </p>
+                    </div>
+
+                    <div class="service-module">
+                        <h4>SEO Optimization</h4>
+                        <p>
+                            We improve your search visibility with technical SEO, content strategy,
+                            and structured optimization — helping your business rank higher
+                            and generate consistent organic leads.
+                        </p>
+                    </div>
+
+                    <div class="service-module">
+                        <h4>Performance Advertising</h4>
+                        <p>
+                            Our paid ad campaigns are focused on ROI. We continuously test,
+                            analyze, and optimize to ensure your investment delivers measurable results.
+                        </p>
+                    </div>
+
+                  <div class="service-module">
+    <h4>Website Maintenance</h4>
+    <p>
+        We keep your website secure, updated, and performing at its best.
+        Regular optimization improves speed, uptime, and overall SEO.
+        Reliable maintenance ensures a smooth experience for your users.
+    </p>
+</div>
+
+                   <div class="service-module">
+    <h4>Graphic Design</h4>
+    <p>
+        We create clean, modern graphics that elevate your brand.
+        From social posts to marketing visuals, every design is clear and impactful.
+        Strong visuals boost engagement and brand presence.
+    </p>
+</div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="section">
+            <div class="content-box">
+
+                <!-- LEFT SIDE -->
+                <div class="left">
+                    <h1><span>Let’s Build</span> the Future of Technology Together</h1>
+                    <p>
+                        Let our team provide you with a no-cost, no-commitment technical proposal
+                        for your next enterprise custom project.
+                    </p>
+                    <div class="btn"><a href="#contact">Talk to an Expert →</a></div>
+                </div>
+
+             <div class="icon-grid">
+    <div class="icon-box"><i class="fab fa-html5"></i></div>
+    <div class="icon-box"><i class="fab fa-css3-alt"></i></div>
+    <div class="icon-box"><i class="fab fa-js"></i></div>
+    <div class="icon-box"><i class="fab fa-react"></i></div>
+
+    <div class="icon-box"><i class="fab fa-node"></i></div>
+    <div class="icon-box"><i class="fab fa-python"></i></div>
+    <div class="icon-box"><i class="fab fa-php"></i></div>
+    <div class="icon-box"><i class="fab fa-laravel"></i></div>
+
+    <div class="icon-box"><i class="fab fa-git-alt"></i></div>
+    <div class="icon-box"><i class="fab fa-github"></i></div>
+    <div class="icon-box"><i class="fab fa-docker"></i></div>
+    <div class="icon-box"><i class="fab fa-aws"></i></div>
+
+    <div class="icon-box"><i class="fab fa-wordpress"></i></div>
+    <div class="icon-box"><i class="fab fa-figma"></i></div>
+    <div class="icon-box"><i class="fab fa-bootstrap"></i></div>
+    <div class="icon-box"><i class="fab fa-angular"></i></div>
+</div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="growth">
+            <div class="container">
+
+                <div class="growth-wrapper text-center">
+
+                    <h2 class="growth-title">BUILT FOR NEXT-LEVEL GROWTH</h2>
+
+                    <p class="growth-lead">
+                        Whether you're launching, scaling, or optimizing —
+                        we build digital systems that grow with your business.
+                    </p>
+
+                    <p class="growth-text">
+                        We partner with startups, growing brands, and established businesses
+                        to create high-performance websites and marketing strategies
+                        designed for long-term, measurable growth.
+                        Our focus is simple: <br> <b class="impact"> build once, scale continuously.</b>
+                    </p>
+
+                    <div class="growth-points">
+                        <div class="growth-item">⚡ Fast Execution</div>
+                        <div class="growth-item">📈 Measurable Growth</div>
+                        <div class="growth-item">🧠 Strategic Thinking</div>
+                        <div class="growth-item">🚀 Built - to Scale</div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section class="ai-focus-section" id="review">
+            <div class="ai-container">
+
+                <div class="ai-header">
+                    <span>CLIENT SUCCESS STORIES</span>
+                    <h2>Real Growth Results Delivered by Rank Up Digitaly</h2>
+                </div>
+
+                <div class="ai-carousel">
+
+                    <!-- CARD 1 -->
+                    <div class="ai-card active">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=1">
+                            <div>
+                                <h4>Rahul Sharma</h4>
+                                <span>Founder — SaaS Startup</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">+42% Conversions</div>
+
+                        <p>
+                            Rank Up Digitaly redesigned our entire website and optimized
+                            our marketing funnel. Within three months, our conversion rate
+                            increased by 42% and lead quality improved significantly.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">Web Development + Funnel Optimization</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- CARD 2 -->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=2">
+                            <div>
+                                <h4>Priya Verma</h4>
+                                <span>CEO — E-commerce Brand</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">ROI-Focused Ads</div>
+
+                        <p>
+                            Our paid campaigns were not profitable before working with
+                            Rank Up Digitaly. Their targeting strategy and data-driven
+                            execution helped us scale revenue consistently.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">Performance Marketing</span>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=3">
+                            <div>
+                                <h4>Arjun Mehta</h4>
+                                <span>Marketing Head — Tech Company</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">SEO Growth</div>
+
+                        <p>
+                            Their SEO strategy improved our organic visibility and
+                            helped us rank on the first page for competitive keywords.
+                            Traffic and inquiries both increased.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">SEO Optimization</span>
+                        </div>
+                    </div>
+
+
+                    <!-- CARD 4 -->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=4">
+                            <div>
+                                <h4>Mamta Sidhu</h4>
+                                <span>Startup Founder</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">Clean UI Experience</div>
+
+                        <p>
+                            The team at Rank Up Digitaly delivered a modern, fast,
+                            and highly responsive website. The user experience is
+                            significantly better than our previous platform.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">UI/UX + Front-End Development</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- CARD 5 -->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=5">
+                            <div>
+                                <h4>Shubham Silyan</h4>
+                                <span>Business Owner</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">Structured Growth Plan</div>
+
+                        <p>
+                            What impressed me most was their structured approach.
+                            Clear strategy, transparent reporting, and measurable results.
+                            They operate like a long-term growth partner.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">Digital Growth Strategy</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- CARD 6 -->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=6">
+                            <div>
+                                <h4>Muskan Rana</h4>
+                                <span>Brand Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">Lead Generation</div>
+
+                        <p>
+                            Their marketing campaigns helped us generate high-quality
+                            leads consistently. Communication was clear and performance
+                            reports were detailed and honest.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">Digital Marketing</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- CARD 7 -->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=7">
+                            <div>
+                                <h4>Sunidhi</h4>
+                                <span>Co-Founder — SaaS Product</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">Full Funnel Optimization</div>
+
+                        <p>
+                            From website structure to campaign execution,
+                            Rank Up Digitaly improved our entire customer journey.
+                            Conversions and retention both improved.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">Web + Marketing Systems</span>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- CARD 8-->
+                    <div class="ai-card">
+                        <div class="profile">
+                            <img src="https://i.pravatar.cc/80?img=8">
+                            <div>
+                                <h4>Srishti Garg</h4>
+                                <span>Operations Manager</span>
+                            </div>
+                        </div>
+
+                        <div class="review-badge">Performance Upgrade</div>
+
+                        <p>
+                            Our previous website was slow and outdated.
+                            Rank Up Digitaly rebuilt it with performance
+                            optimization in mind. Load time improved drastically.
+                        </p>
+
+                        <div class="card-footer">
+                            <div class="stars">★★★★★</div>
+                            <span class="course">Website Revamp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="gsap-showcase">
+            <h1 class="gsap-title">
+                Stop Guessing. Start Scaling.
+            </h1>
+
+            <p class="gsap-subtitle">
+                Rank Up Digitaly helps brands dominate online with
+                performance-driven websites and marketing strategies
+                built for measurable results.
+            </p>
+
+            <button class="gsap-btn"><a href="#contact">Let’s Scale Your Brand</a></button>
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- Projects Section -->
+        <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
+
+            <div class="container">
+
+                <!-- HEADER -->
+                <div class="row">
+                    <div class="section-header text-center">
+                        <h2 class="neon-outline-title">
+                            OUR WORK
+                        </h2>
+
+                        <p style="font-size:18px; color: var(--text-gray); max-width: 800px; margin: auto;">
+                            At Rank Up Digitaly, we build high-performance websites and
+                            data-driven marketing systems that generate measurable growth.
+                            Here are selected projects that demonstrate our strategy,
+                            execution, and real business impact.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="page">
+
+                    <!-- TOP GRID -->
+                    <div class="top-grid">
+
+                        <!-- STATS -->
+                        <div class="stats">
+
+                            <div class="panel stat">
+                                <h3>50+</h3>
+                                <span>Businesses Served</span>
+                            </div>
+
+                            <div class="panel stat">
+                                <h3>120%</h3>
+                                <span>Average Traffic Growth</span>
+                            </div>
+
+                            <div class="panel stat">
+                                <h3>200+</h3>
+                                <span>Campaigns Executed</span>
+                            </div>
+
+                        </div>
+
+                        <!-- PROJECT 1 -->
+                        <div class="panel project" data-link="#">
+                            <span class="badge">SaaS</span>
+                            <img src="" alt="">
+                            <h4>SaaS Growth Funnel System</h4>
+                            <span class="desc">Website + Funnel Optimization</span>
+                            <span class="desc-long">
+                                Complete redesign with conversion-focused UI,
+                                landing pages, and performance tracking that
+                                increased qualified leads by 42%.
+                            </span>
+                        </div>
+
+                        <!-- PROJECT 2 -->
+                        <div class="panel project" data-link="#">
+                            <span class="badge">E-Commerce</span>
+                            <img src="" alt="">
+                            <h4>High-Converting E-Commerce Store</h4>
+                            <span class="desc">Performance Marketing + CRO</span>
+                            <span class="desc-long">
+                                Optimized checkout flow, product structure,
+                                and paid ads strategy to achieve profitable
+                                scaling within 60 days.
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- SECOND GRID -->
+                    <div class="student-grid">
+
+                        <!-- PROJECT 3 -->
+                        <div class="panel project" data-link="#">
+                            <span class="badge">Startup</span>
+                            <img src="" alt="">
+                            <h4>Startup Brand Launch</h4>
+                            <span class="desc">Branding + Website Development</span>
+                            <span class="desc-long">
+                                Designed and developed a modern responsive
+                                website with SEO optimization for early-stage
+                                brand positioning.
+                            </span>
+                        </div>
+
+                        <!-- PROJECT 4 -->
+                        <div class="panel project" data-link="#">
+                            <span class="badge">SEO</span>
+                            <img src="" alt="">
+                            <h4>Organic Traffic Growth Strategy</h4>
+                            <span class="desc">Technical + Content SEO</span>
+                            <span class="desc-long">
+                                Improved search visibility for competitive
+                                keywords, resulting in consistent monthly
+                                traffic growth.
+                            </span>
+                        </div>
+
+                        <!-- PROJECT 5 -->
+                        <div class="panel project" data-link="#">
+                            <span class="badge">Corporate</span>
+                            <img src="" alt="">
+                            <h4>Corporate Website Revamp</h4>
+                            <span class="desc">UI/UX + Performance Optimization</span>
+                            <span class="desc-long">
+                                Revamped outdated corporate site with modern
+                                architecture, speed optimization, and improved
+                                user engagement.
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- TOOLBOX -->
+                    <div class="toolbox panel">
+                        <div class="marquee">
+                            <div class="marquee-track" id="marqueeTrack">
+                                <!-- tech logos here -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <section class="performance-bar">
+     <h2 class="performance-title">WE OFFER</h2>
+    <div class="performance-container">
+
+       
+
+        <div class="performance-item">
+            <h3>90+ PageSpeed</h3>
+            <p>Optimized for Core Web Vitals & Technical Performance</p>
+        </div>
+
+        <div class="performance-item">
+            <h3>1.5s Load Time</h3>
+            <p>Engineered for Speed Across Devices & Networks</p>
+        </div>
+
+        <div class="performance-item">
+            <h3>SEO Structured</h3>
+            <p>Schema Markup & Technical SEO Built-In</p>
+        </div>
+
+        <div class="performance-item">
+            <h3>Conversion Optimized</h3>
+            <p>UX Designed to Turn Visitors into Leads</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+        <section class="launch-contact " id="contact">
+
+            <div class="launch-bg-grid"></div>
+            <div class="launch-glow"></div>
+
+            <div class="launch-wrapper">
+
+                <!-- LEFT SIDE -->
+                <div class="launch-left">
+
+                    <h2 class="launch-title">
+                        READY TO <span>RANK UP</span>?
+                    </h2>
+
+                    <p class="launch-sub">
+                        Every serious brand reaches a moment where growth
+                        requires precision, strategy, and execution.
+                        This is that moment.
+                    </p>
+
+                    <div class="launch-stats">
+                        <div>
+                            <h3>50+</h3>
+                            <span>Brands Scaled</span>
+                        </div>
+                        <div>
+                            <h3>120%</h3>
+                            <span>Avg Growth</span>
+                        </div>
+                        <div>
+                            <h3>100%</h3>
+                            <span>Performance Focused</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="launch-form-panel">
+
+                    <div class="panel-border"></div>
+
+                    <form class="launch-form">
+
+                        <div class="input-group">
+                            <input type="text" required>
+                            <label>Full Name</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" required>
+                            <label>Email Address</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text">
+                            <label>Business / Brand</label>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea rows="4" required></textarea>
+                            <label>Let's Talk About Your Dream/Goal</label>
+                        </div>
+
+                        <button type="submit" class="launch-btn">
+                            Initiate Growth
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer class="cyber-footer">
+
+            <!-- Floating Icons Background -->
+            <div class="floating-icons">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-figma"></i>
+                <i class="fab fa-wordpress"></i>
+                <i class="fab fa-google"></i>
+                <i class="fab fa-aws"></i>
+            </div>
+
+            <div class="footer-wrapper">
+
+                <!-- BRAND -->
+                <div class="footer-col brand">
+                    <h3 class="footer-logo">Rank Up Digitaly</h3>
+                    <p>
+                        Engineering high-performance websites and growth-driven
+                        marketing systems for ambitious brands.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- SERVICES -->
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Performance Ads</a></li>
+                        <li><a href="#">Growth Strategy</a></li>
+                    </ul>
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#advertisers">Projects</a></li>
+                        <li><a href="#review">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> Email: rankupdigitaly@gmail.com</li>
+<li><i class="fas fa-phone-alt"></i> Phone: +91 6284686544</li>
+<li><i class="fas fa-map-marker-alt"></i> Mohali / Chandigarh</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                © 2025 Rank Up Digitaly — Built for Ambitious Growth
+            </div>
+
+        </footer>
+    </div>
+
+
+
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+
+</body>
+
+<!-- cursor effect -->
+<script>
+document.addEventListener("mousemove", function(e) {
+    const dot = document.querySelector(".cursor-dot");
+    const outline = document.querySelector(".cursor-outline");
+
+    dot.style.top = e.clientY + "px";
+    dot.style.left = e.clientX + "px";
+
+    outline.animate({
+        top: e.clientY + "px",
+        left: e.clientX + "px"
+    }, { duration: 300, fill: "forwards" });
+});
+</script>
+
+
+
+
+<script>
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    // Scroll detection
+    window.addEventListener("scroll", () => {
+        let current = "";
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 120;
+            const sectionHeight = section.offsetHeight;
+
+            if (pageYOffset >= sectionTop) {
+                current = section.getAttribute("id");
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === "#" + current) {
+                link.classList.add("active");
+            }
+        });
+    });
+
+    // Click detection
+    navLinks.forEach(link => {
+        link.addEventListener("click", function () {
+            navLinks.forEach(l => l.classList.remove("active"));
+            this.classList.add("active");
+        });
+    });
+</script>
+
+
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+    const burger = document.querySelector(".hamburger");
+
+    menu.classList.toggle("active");
+    burger.classList.toggle("active");
+}
+
+window.addEventListener("scroll", function () {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+    if (docHeight > 0) {
+        const scrollPercent = (scrollTop / docHeight) * 100;
+        document.getElementById("progressBar").style.width = scrollPercent + "%";
+    }
+});
+</script>
+
+
+<!-- Auto Active Script -->
+<script>
+    const currentPage = window.location.pathname.split("/").pop();
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+        const linkPage = link.getAttribute("href");
+        if (linkPage === currentPage) {
+            link.classList.add("active");
+        }
+    });
+</script>
+
+
+
+
+
+<script>
+    /* TOOLBOX */
+    const icons = ["icons/html.svg", "icons/css.svg", "icons/java.svg", "icons/react.svg", "icons/node.svg", "icons/git.svg", "icons/figma.svg", "icons/ai.svg"];
+    const track = document.getElementById("marqueeTrack");
+    let iconHTML = "";
+    for (let i = 0; i < 4; i++) icons.forEach(src => iconHTML += `<img src="${src}">`);
+    track.innerHTML = iconHTML;
+
+    /* DATA */
+    const instituteProjects = [
+        { img: "i1.jpg", title: "Online Taxi Platform", desc: "Booking System", long: "Real-time cab booking platform with live tracking and admin dashboard." },
+        { img: "i2.jpg", title: "Pharma Website", desc: "Corporate", long: "Professional pharma website showcasing products and certifications." },
+        { img: "i3.jpg", title: "Business Portfolio", desc: "Branding", long: "Modern portfolio site built to attract clients." },
+        { img: "i4.jpg", title: "Service Platform", desc: "UI / UX", long: "Service-based platform with clean user experience." }
+    ];
+
+    const studentProjects = [
+        { img: "/digital.jpg", title: "Portfolio Website", desc: "HTML • CSS", long: "Personal portfolio website showcasing skills and projects." },
+        { img: "/two.jpg", title: "Landing Page", desc: "React", long: "High-conversion landing page with responsive layout." },
+        { img: "/three.jpg", title: "E-Commerce UI", desc: "Frontend", long: "E-commerce UI focused on clarity and usability." },
+        { img: "/four.jpg", title: "Gym Website", desc: "UI Design", long: "Fitness website concept with modern sections." },
+        { img: "/one.jpg", title: "Business Page", desc: "HTML", long: "Static business website with clean structure." },
+        { img: "/five.jpg", title: "Dashboard UI", desc: "CSS Grid", long: "Admin dashboard demonstrating CSS Grid mastery." }
+    ];
+
+    let instIndex = 0, stuIndex = 0;
+
+    /* SAFE IMAGE SWAP */
+    function swapCards(ids, list, start) {
+        ids.forEach((id, i) => {
+            const el = document.getElementById(id);
+            const imgEl = el.querySelector("img");
+            const data = list[(start + i) % list.length];
+
+            const temp = new Image();
+            temp.src = data.img;
+
+            temp.onload = () => {
+                imgEl.style.opacity = 0;
+                setTimeout(() => {
+                    imgEl.src = data.img;
+                    el.querySelector("h4").textContent = data.title;
+                    el.querySelector(".desc").textContent = data.desc;
+                    el.querySelector(".desc-long").textContent = data.long;
+                    imgEl.style.opacity = 1;
+                }, 150);
+            };
+
+            temp.onerror = () => {
+                el.querySelector("h4").textContent = data.title;
+                el.querySelector(".desc").textContent = data.desc;
+                el.querySelector(".desc-long").textContent = data.long;
+            };
+        });
+    }
+
+
+    /* CLICKABLE CARDS */
+    document.querySelectorAll('.project').forEach(card => {
+        card.addEventListener('click', () => {
+            const url = card.getAttribute('data-link');
+            if (url) window.open(url, "_blank");
+        });
+    });
+</script>
+
+
+
+
+
+<script>
+    // 3D Tilt
+    const panel = document.getElementById("tiltPanel");
+
+    panel.addEventListener("mousemove", (e) => {
+        const rect = panel.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+
+        const rotateX = ((y - centerY) / centerY) * -8;
+        const rotateY = ((x - centerX) / centerX) * 8;
+
+        panel.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+        panel.style.setProperty('--x', `${(x / rect.width) * 100}%`);
+        panel.style.setProperty('--y', `${(y / rect.height) * 100}%`);
+    });
+
+    panel.addEventListener("mouseleave", () => {
+        panel.style.transform = "rotateX(0deg) rotateY(0deg)";
+    });
+
+    // Smooth Counter
+    const counters = document.querySelectorAll('.stat-number');
+
+    counters.forEach(counter => {
+        const target = +counter.getAttribute('data-target');
+        const duration = 1500;
+        const startTime = performance.now();
+
+        function animate(currentTime) {
+            const progress = Math.min((currentTime - startTime) / duration, 1);
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+            counter.innerText = Math.floor(easeOut * target);
+
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                counter.innerText = target;
+            }
+        }
+
+        requestAnimationFrame(animate);
+    });
+</script>
+
+
+
+
+
+<script>
+    /* Create floating neon particles */
+    const container = document.getElementById("particles");
+
+    for (let i = 0; i < 70; i++) {
+        const p = document.createElement("div");
+        p.classList.add("particle");
+
+        const size = Math.random() * 6 + 4;
+        p.style.width = size + "px";
+        p.style.height = size + "px";
+
+        p.style.left = Math.random() * 100 + "vw";
+        p.style.top = Math.random() * 100 + "vh";
+        p.style.animationDuration = 5 + Math.random() * 7 + "s";
+
+        container.appendChild(p);
+    }
+</script>
+
+<script>
+    document.querySelectorAll(".service-module").forEach(module => {
+        module.addEventListener("mousemove", e => {
+            const rect = module.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            module.style.background =
+                `radial-gradient(circle at ${x}px ${y}px,
+             rgba(57,255,20,0.08),
+             #111 60%)`;
+        });
+
+        module.addEventListener("mouseleave", () => {
+            module.style.background =
+                "linear-gradient(145deg, #111, #151515)";
+        });
+    });
+</script>
+
+
+
+
+<script>
+    const cards = document.querySelectorAll(".ai-card");
+    let current = 0;
+
+    function updateCarousel() {
+        cards.forEach(card => {
+            card.classList.remove("active", "prev", "next");
+        });
+
+        const prev = (current - 1 + cards.length) % cards.length;
+        const next = (current + 1) % cards.length;
+
+        cards[current].classList.add("active");
+        cards[prev].classList.add("prev");
+        cards[next].classList.add("next");
+    }
+
+    updateCarousel();
+
+    setInterval(() => {
+        current = (current + 1) % cards.length;
+        updateCarousel();
+    }, 4000);
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- gsap -->
+<script>document.addEventListener("DOMContentLoaded", function () {
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Entrance Animation
+        gsap.to(".gsap-title", {
+            y: -20,
+            opacity: 1,
+            duration: 1.2,
+            ease: "power3.out"
+        });
+
+        gsap.to(".gsap-subtitle", {
+            y: -10,
+            opacity: 1,
+            duration: 1.2,
+            delay: 0.4,
+            ease: "power3.out"
+        });
+
+        gsap.to(".gsap-btn", {
+            y: -10,
+            opacity: 1,
+            duration: 1,
+            delay: 0.8,
+            ease: "power3.out"
+        });
+
+        // Neon Glow Pulse
+        gsap.to(".gsap-title", {
+            textShadow: "0 0 20px #39ff14, 0 0 40px #39ff14",
+            repeat: -1,
+            yoyo: true,
+            duration: 1.5,
+            ease: "sine.inOut"
+        });
+
+        // Scroll Fade Sections
+        gsap.utils.toArray(".gsap-fade").forEach(section => {
+            gsap.from(section, {
+                opacity: 0,
+                y: 80,
+                duration: 1,
+                scrollTrigger: {
+                    trigger: section,
+                    start: "top 80%",
+                }
+            });
+        });
+
+    });</script>
+
+
+
+
+<script>
+document.querySelectorAll(".dropdown-toggle").forEach(toggle => {
+    toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const dropdown = this.parentElement;
+
+        // Close other dropdowns
+        document.querySelectorAll(".dropdown").forEach(d => {
+            if (d !== dropdown) d.classList.remove("active");
+        });
+
+        dropdown.classList.toggle("active");
+    });
+});
+
+// Close when clicking outside
+document.addEventListener("click", function (e) {
+    if (!e.target.closest(".dropdown")) {
+        document.querySelectorAll(".dropdown")
+            .forEach(d => d.classList.remove("active"));
+    }
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Mobile dropdown toggle
+    document.querySelectorAll(".mobile-dropdown-toggle").forEach(toggle => {
+        toggle.addEventListener("click", function (e) {
+            e.stopPropagation();
+
+            const parent = this.closest(".mobile-dropdown");
+
+            // Close other mobile dropdowns
+            document.querySelectorAll(".mobile-dropdown").forEach(item => {
+                if (item !== parent) {
+                    item.classList.remove("active");
+                }
+            });
+
+            parent.classList.toggle("active");
+        });
+    });
+
+});
+</script>
+
+
+
+
+</html>

@@ -1,0 +1,4 @@
+user-agent: *
+Allow: /
+Disallow: /Admin/
+Sitemap: https://rank-up-digitaly.com/sitemap.xml
