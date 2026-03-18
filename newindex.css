@@ -50,7 +50,10 @@
 /* neon words */
 .hero h1 span{
     font-size: 72px;
-    color:var(--neon-green);
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-green);
+    letter-spacing: 3px;
     animation:neonPulse 2s infinite alternate;
 }
 
@@ -139,14 +142,14 @@
     }
 }
 
-@keyframes neonPulse{
+/* @keyframes neonPulse{
     from{
-        text-shadow:0 0 5px var(--neon-green);
+        text-shadow:0 0 0px var(--neon-green);
     }
     to{
-        text-shadow:0 0 20px var(--neon-green);
+        text-shadow:0 0 10px var(--neon-green);
     }
-}
+} */
 
 /* scroll indicator */
 .scroll-indicator{
@@ -230,10 +233,11 @@ margin:0 auto 80px;
 }
 
 .what-title{
-font-size:2.6rem;
-color:var(--text-light);
-margin-bottom:14px;
-text-shadow:0 0 12px rgba(57,255,20,.35);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-green);
+    letter-spacing: 3px;
 }
 
 .what-desc{
@@ -521,14 +525,12 @@ font-size:2.2rem;
 
 /* ================= TITLE ================= */
 .hub-seo-title{
-  font-size:2.6rem;
-  font-weight:600;
-  letter-spacing:.5px;
-  color:#ffffff;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-green);
+    letter-spacing: 3px;
 
-  text-shadow:
-    0 0 10px rgba(57,255,20,.35),
-    0 0 25px rgba(57,255,20,.15);
 }
 
 /* ================= DESCRIPTION ================= */
@@ -1061,11 +1063,11 @@ font-size:2.2rem;
 }
 
 .course-title{
-  font-size:2.5rem;
-  font-weight:600;
-  letter-spacing:.6px;
-  color:rgba(255,255,255,.95);
-  margin-bottom:14px;
+     font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-green);
+    letter-spacing: 3px;
 }
 
 .course-desc{
@@ -1430,14 +1432,14 @@ font-size:2.2rem;
   margin:0 auto 70px auto;
 }
 
-.course-title{
+/* .course-title{
   font-size:2.6rem;
   font-weight:600;
   letter-spacing:.6px;
   color:#fff;
 
   text-shadow:0 0 10px rgba(57,255,20,.35);
-}
+} */
 
 .course-desc{
   font-size:15px;
@@ -1553,10 +1555,11 @@ margin:0 auto 80px;
 }
 
 .system-title{
-font-size:2.6rem;
-color:#fff;
-margin-bottom:15px;
-text-shadow:0 0 10px rgba(57,255,20,.35);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-green);
+    letter-spacing: 3px;
 }
 
 .system-desc{
@@ -1704,8 +1707,11 @@ margin-bottom:80px;
 }
 
 .ts-test-header h2{
-font-size:42px;
-color:var(--text-light);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--neon-green);
+    letter-spacing: 3px;
 }
 
 .ts-test-header span{
